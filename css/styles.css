@@ -1,0 +1,189 @@
+/* ESTILOS GENERALES */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    background-color: #242424;
+    color: #fff;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #242424;
+    color: #fff;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    bottom: 0px;
+    height: auto;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content p {
+    margin: 0;
+    flex: 1;
+}
+
+.footer-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* INDEX */
+.section {
+  display: inline-block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-inline: 150px;
+  text-align: center;
+}
+
+.section img{
+  width: 100%;
+  height: auto;
+}
+
+.section h2{
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+.btn {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #c7c7c7;
+}
+
+.btnCancelar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.btnCancelar:hover {
+    background-color: #ff3131;
+}
+
+main ul {
+    list-style: none;
+}
+
+/* FORMULARIOS */
+form {
+    margin: 15px;
+}
+
+form input {
+    margin-top: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    height: 20px;
+    width: 200px;
+}
+
+form label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form textarea {
+    margin-top: 15px;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px 5px 5px 5px;
+    height: 70px;
+    width: 400px;
+}
